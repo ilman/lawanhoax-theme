@@ -1,0 +1,10 @@
+*.thumb
+*.cache
+*.bak
+*.mo
+.composer.lock
+
+cache/
+bower_components/
+node_modules/
+vendor/

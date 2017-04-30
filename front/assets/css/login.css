@@ -1,0 +1,31 @@
+#login h1 a {
+  height: auto;
+  width: auto;
+  text-indent: 0;
+  background: none;
+  font-size: 36px;
+  line-height: 1.1em;
+  font-weight: bold;
+}
+#login #nav {
+  text-align: center;
+}
+#login #backtoblog {
+  display: none;
+}
+#login .css-fbl {
+  background: #2b4170;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 10px 20px;
+  border-radius: 3px;
+  max-width: inherit;
+  text-align: center;
+}
+#login .css-fbl div {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  display: block;
+}

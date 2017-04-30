@@ -1,0 +1,125 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "../../bower_components/bootstrap/less/variables.less";
+
+// Variables
+@brand-primary: #343434; //#00618e;
+@brand-secondary: #c0151b;
+@brand-danger: #c0151b;
+
+@brand-facebook: #3b5998;
+@brand-twitter: #55acee;
+@brand-google-plus: #e93f2e;
+@brand-whatsapp: #12af0a;
+@brand-pinterest: #cd1d1f;
+
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
+
+@btn-secondary-color:              #fff;
+@btn-secondary-bg:                 @brand-secondary;
+@btn-secondary-border:             darken(@btn-secondary-bg, 5%);
+
+@border-radius-base:        0px;
+@border-radius-large:       0px;
+@border-radius-small:       0px;
+@btn-border-radius-base:         @border-radius-base;
+@btn-border-radius-large:        @border-radius-large;
+@btn-border-radius-small:        @border-radius-small;
+@input-border-radius:            @border-radius-base;
+@input-border-radius-large:      @border-radius-large;
+@input-border-radius-small:      @border-radius-small;
+@navbar-border-radius:           @border-radius-base;
+@nav-pills-border-radius:        @border-radius-base;
+@pager-border-radius:            15px;
+@alert-border-radius:         @border-radius-base;
+@progress-border-radius:      @border-radius-base;
+@list-group-border-radius:    @border-radius-base;
+@panel-border-radius:         @border-radius-base;
+@thumbnail-border-radius:     @border-radius-base;
+@badge-border-radius:         10px;
+
+
+// Core mixins
+@import "../../bower_components/bootstrap/less/mixins.less";
+
+// Reset and dependencies
+@import "../../bower_components/bootstrap/less/normalize.less";
+@import "../../bower_components/bootstrap/less/print.less";
+// @import "../../bower_components/bootstrap/less/glyphicons.less";
+
+// Core CSS
+@import "../../bower_components/bootstrap/less/scaffolding.less";
+@import "../../bower_components/bootstrap/less/type.less";
+@import "../../bower_components/bootstrap/less/code.less";
+@import "../../bower_components/bootstrap/less/grid.less";
+@import "../../bower_components/bootstrap/less/tables.less";
+@import "../../bower_components/bootstrap/less/forms.less";
+@import "../../bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "../../bower_components/bootstrap/less/component-animations.less";
+@import "../../bower_components/bootstrap/less/dropdowns.less";
+@import "../../bower_components/bootstrap/less/button-groups.less";
+@import "../../bower_components/bootstrap/less/input-groups.less";
+@import "../../bower_components/bootstrap/less/navs.less";
+@import "../../bower_components/bootstrap/less/navbar.less";
+@import "../../bower_components/bootstrap/less/breadcrumbs.less";
+@import "../../bower_components/bootstrap/less/pagination.less";
+@import "../../bower_components/bootstrap/less/pager.less";
+@import "../../bower_components/bootstrap/less/labels.less";
+@import "../../bower_components/bootstrap/less/badges.less";
+// @import "../../bower_components/bootstrap/less/jumbotron.less";
+@import "../../bower_components/bootstrap/less/thumbnails.less";
+@import "../../bower_components/bootstrap/less/alerts.less";
+// @import "../../bower_components/bootstrap/less/progress-bars.less";
+@import "../../bower_components/bootstrap/less/media.less";
+@import "../../bower_components/bootstrap/less/list-group.less";
+@import "../../bower_components/bootstrap/less/panels.less";
+@import "../../bower_components/bootstrap/less/responsive-embed.less";
+@import "../../bower_components/bootstrap/less/wells.less";
+@import "../../bower_components/bootstrap/less/close.less";
+
+// Components w/ JavaScript
+@import "../../bower_components/bootstrap/less/modals.less";
+// @import "../../bower_components/bootstrap/less/tooltip.less";
+// @import "../../bower_components/bootstrap/less/popovers.less";
+// @import "../../bower_components/bootstrap/less/carousel.less";
+
+// Utility classes
+@import "../../bower_components/bootstrap/less/utilities.less";
+@import "../../bower_components/bootstrap/less/responsive-utilities.less";
+
+// Fix
+ul.row{ margin-top:0; padding:0; list-style:none; }
+
+// Extra
+.btn-default {
+  .button-variant(@text-color; #eee; darken(#eee, 10%));
+}
+
+.btn-secondary {
+  .button-variant(@btn-secondary-color; @btn-secondary-bg; @btn-secondary-border);
+}
+
+.btn-facebook {
+  .button-variant(#fff; @brand-facebook; darken(@brand-facebook, 5%));
+}
+.btn-twitter {
+  .button-variant(#fff; @brand-twitter; darken(@brand-twitter, 5%));
+}
+.btn-whatsapp {
+  .button-variant(#fff; @brand-whatsapp; darken(@brand-whatsapp, 5%));
+}
+.btn-pinterest {
+  .button-variant(#fff; @brand-pinterest; darken(@brand-pinterest, 5%));
+}
+.btn-google-plus {
+  .button-variant(#fff; @brand-google-plus; darken(@brand-google-plus, 5%));
+}

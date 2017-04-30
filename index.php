@@ -1,0 +1,1 @@
+<?php include(sg_view_path('framework/templates/'.$sg_wrapper['theme_layout'].'.php')); ?>

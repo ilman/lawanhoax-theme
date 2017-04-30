@@ -1,0 +1,22 @@
+{
+    "name": "scienceguard/sg_util",
+    "description": "Common utility class for everyday projects",
+    "license": "MIT",
+    "keywords": ["utilities"],
+    "homepage": "http://github.com/ilman/sg_util",
+    "authors": [
+        {
+            "name": "Ilman Maulana",
+            "email": "ilman.maulana@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scienceguard\\": "src"
+        }
+    }
+}
